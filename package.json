@@ -7,7 +7,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://bitbucket.org/haykelbj/tnpostcodes.git"
+        "url": "https://github.com/hbj/tnpostcodes.git"
     },
     "dependencies": {
         "request": "~2.34.0",
