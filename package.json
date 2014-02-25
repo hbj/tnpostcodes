@@ -1,0 +1,17 @@
+{
+    "name": "tnpostcodes",
+    "version": "1.0.0",
+    "description": "Fonctions pour lire les listes des villes, délégations, localités et code postaux à partir du site de la poste Tunisienne.",
+    "main": "./lib/index.js",
+    "author": "Haykel Ben Jemia",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/haykelbj/tnpostcodes.git"
+    },
+    "dependencies": {
+        "request": "~2.34.0",
+        "htmlparser2": "~3.5.0",
+        "async": "~0.2.10"
+    }
+}
