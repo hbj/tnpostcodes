@@ -1,7 +1,7 @@
 {
     "name": "tnpostcodes",
     "version": "1.0.0",
-    "description": "Fonctions pour lire les listes des villes, délégations, localités et code postaux à partir du site de la poste Tunisienne.",
+    "description": "Fonctions pour lire les listes des gouvernorats, délégations, localités et code postaux à partir du site de la poste Tunisienne.",
     "main": "./lib/index.js",
     "author": "Haykel Ben Jemia",
     "license": "MIT",
