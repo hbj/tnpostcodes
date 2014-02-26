@@ -11,15 +11,14 @@ pour lire les données recherchées, le résultat reçu, qui est un code HTML, e
 
 ## Fichier des codes postaux
 
-Le fichier `odes.csv` contient la liste des codes postaux existants à la date de sa création. Il est généré avec
+Le fichier `codes.csv` contient la liste des codes postaux existants à la date de sa création. Il est généré avec
 l'outil `export.js`. Vous n'avez qu'a télécharger ce fichier si vous avez juste besoin de cette liste. La librairie
 devient utile si vous voulez utiliser les données d'une façon spécifique.
 
 ## Installation
 
-Soit à partir de [https://github.com/hbj/tnpostcodes](GitHub) soit en utilisant npm:
+Soit à partir de [GitHub](https://github.com/hbj/tnpostcodes) soit en utilisant npm:
 
 ```
 npm install tnpostcodes
 ```
-
