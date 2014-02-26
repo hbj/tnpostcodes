@@ -1,14 +1,13 @@
 var tnpostcodes = require('./lib');
 
-tnpostcodes.getAllCodes(function(err, codes)
-{
-    if (err)
-        console.log(err);
-    else
+tnpostcodes.getAllCodes(
+    function(data)
     {
-        codes.forEach(function(code)
-        {
-            console.log(code.join(','));
-        });
+        console.log(data.join(','));
+    },
+    function(err)
+    {
+        if (err)
+            console.log(err);
     }
-});
+);
